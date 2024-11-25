@@ -19,34 +19,7 @@ $records = $data['results'] ?? [];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Enrollment Data</title>
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
-    <style>
-        /* Add custom table styling */
-        .table-container {
-            overflow-x: auto;
-            margin-top: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: left;
-        }
-        th, td {
-            padding: 5px;
-            border: 5px solid #ccc;
-            white-space: nowrap; 
-        }
-        th {
-            background-color: #f4f4f4;
-            font-weight: bold;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        .no-data {
-            text-align: center;
-            color: #777;
-        }
-    </style>
+   
 </head>
 <body>
 <main class="container">
